@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Replio Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 20px 64px;
+      line-height: 1.65;
+      color: #1f1f2e;
+    }
+    h1 { color: #6B3A2A; font-size: 1.75rem; }
+    h2 { margin-top: 28px; font-size: 1.1rem; color: #3D2418; }
+    ul { padding-left: 1.2rem; }
+    a { color: #6B3A2A; }
+  </style>
+</head>
+<body>
+  <h1>Replio Privacy Policy</h1>
+  <p><strong>Last updated:</strong> August 17, 2026</p>
+
+  <p>
+    Replio is a Chrome extension that helps users generate context-aware comments
+    on LinkedIn and Reddit using AI. This policy explains what information the
+    extension and its backend use, why they use it, and how it is handled.
+  </p>
+
+  <h2>Information we use</h2>
+  <ul>
+    <li><strong>Account information</strong> — if you create an account, we store your email address, optional name, and authentication data needed to sign you in.</li>
+    <li><strong>User preferences</strong> — tone, length, voice, and other comment settings you choose in the extension. These are stored in your browser using Chrome extension storage.</li>
+    <li><strong>Post content</strong> — when you use Replio on a LinkedIn or Reddit post, the extension reads visible post text and related context (such as author name, headline, subreddit, or title when available) from that page so it can generate a comment.</li>
+    <li><strong>Usage and billing</strong> — if you use a paid plan, we store your plan type, billing status, comment usage counts, and payment-provider identifiers needed to keep your subscription in sync.</li>
+  </ul>
+
+  <h2>How information is used</h2>
+  <p>
+    Post content and your selected writing preferences are sent to our backend,
+    which calls <a href="https://openrouter.ai">OpenRouter</a> solely to generate
+    comment text. Generated comments are inserted into the LinkedIn or Reddit
+    comment box for you to review before posting. Replio does not post comments
+    on your behalf without your action.
+  </p>
+  <p>
+    Account and billing data are used to authenticate you, enforce plan limits,
+    and process upgrades, renewals, and cancellations.
+  </p>
+  <p>
+    Replio does not sell, rent, or trade your personal information.
+    Data is used only to provide the extension’s core functionality.
+  </p>
+
+  <h2>Data storage</h2>
+  <p>
+    Comment settings and your local session token are stored on your device via
+    Chrome’s extension storage APIs. Account, plan, and usage records are stored
+    on our backend using <a href="https://supabase.com">Supabase</a>.
+  </p>
+  <p>
+    Uninstalling the extension removes locally stored settings and the local
+    session. It does not automatically delete your account on the server.
+    Contact us if you want your account deleted.
+  </p>
+
+  <h2>Third-party services</h2>
+  <ul>
+    <li>
+      <strong>OpenRouter</strong> — generates comment text.
+      See <a href="https://openrouter.ai/privacy">OpenRouter’s privacy policy</a>.
+    </li>
+    <li>
+      <strong>Supabase</strong> — authentication and database hosting.
+      See <a href="https://supabase.com/privacy">Supabase’s privacy policy</a>.
+    </li>
+    <li>
+      <strong>Lemon Squeezy</strong> — payment processing and subscriptions
+      (Lemon Squeezy is a merchant of record powered by Stripe).
+      See <a href="https://www.lemonsqueezy.com/privacy">Lemon Squeezy’s privacy policy</a>.
+    </li>
+  </ul>
+  <p>
+    The Chrome extension does not receive OpenRouter, Supabase, or Lemon Squeezy
+    secret keys. Payment details are entered on Lemon Squeezy’s hosted checkout,
+    not inside the extension popup.
+  </p>
+
+  <h2>Permissions</h2>
+  <p>Replio requests these Chrome permissions:</p>
+  <ul>
+    <li><strong>storage</strong> — to save your settings and signed-in session on your device.</li>
+    <li><strong>Host access to LinkedIn and Reddit</strong> — to read the post you are commenting on and insert the generated comment into the page’s comment box.</li>
+    <li><strong>Host access to our API and OpenRouter</strong> — to generate comments when the backend or AI service is used.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <p>
+    You control when Replio runs by choosing to generate a comment on a post.
+    You can change or clear settings in the extension, sign out, uninstall the
+    extension, or manage or cancel a paid plan through the billing portal.
+  </p>
+
+  <h2>Children</h2>
+  <p>Replio is not intended for users under 13 years of age.</p>
+
+  <h2>Changes</h2>
+  <p>
+    We may update this policy from time to time. The updated date at the top of
+    this page will change when we do.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    For privacy questions or to request deletion of your account, contact:
+    <a href="https://github.com/mts755Dev">github.com/mts755Dev</a>
+  </p>
+
+  <p><em>Replio is not affiliated with LinkedIn Corporation or Reddit, Inc.</em></p>
+</body>
+</html>
